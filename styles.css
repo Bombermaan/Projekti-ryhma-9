@@ -31,12 +31,14 @@ html {
 }
 
 body {
-    /*background-image: url("src/img/city.jpg");*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url("src/img/city.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-ul {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -60,9 +62,33 @@ li a:hover {
   background-color: violet;
 }
 
+.active {
+    background-color: white;
+    color: black;
+}
+
 .body {
     text-align: left;
     font-size: 1.1em;
     margin: auto;
-    background-color: rgb(0, 0, 0, 0.1)
+    background-color: rgb(0, 0, 0, 0.7);
+    height: auto;
+    
+}
+.body p, h1, h2, h3 {
+    color: white;
+}
+.list1 {
+    background-color: rgb(0, 0, 0, 0.7)
+    
+}
+.list1 li {
+    color: white;
+
+}
+.list1 {
+    list-style-type: circle;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
