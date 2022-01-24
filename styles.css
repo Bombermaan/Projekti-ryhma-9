@@ -27,8 +27,6 @@
 }
 
 /* Website appearance CSS*/
-html {
-}
 
 body {
     background: url("src/img/city.jpg") no-repeat center center fixed; 
@@ -58,6 +56,9 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+li::marker{
+    content: initial;
+}
 
 li a:hover {
   background-color: violet;
@@ -77,21 +78,41 @@ li a:hover {
     border-radius: 25px;
     
 }
+
+.textbody {
+    width: 75%;
+}
+
 .body p, h1, h2, h3 {
     color: white;
 }
-.list1 {
-    background-color: rgb(0, 0, 0, 0.7)
-    
+
+p {
+   padding: auto;
+   margin-left: 0.8em;
 }
+
 .list1 li {
     color: white;
 
 }
 .list1 {
+    
+    display: list-item;
     list-style-type: circle;
-    margin: 0;
-  padding: 0;
+    margin: auto;
+  padding: auto;
   overflow: hidden;
   border-radius: 10px;
+}
+i {
+    color: red;
+}
+h1, h2, h3 {
+    color: #cc6600;
+    text-indent: 1em;
+    border-bottom: 2px solid white;
+}
+h1:after {
+    border: 2px solid white;
 }
