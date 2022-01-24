@@ -79,6 +79,20 @@ li a:hover {
     
 }
 
+.image {
+    text-align: left;
+    font-size: 1.1em;
+    margin: auto;
+    height: auto;
+    width: 75%;
+}
+.imagecontainer {
+    width: 50%;
+    background-color: rgb(255, 255, 255, 1);
+    border-radius: 10px;
+}
+
+
 .textbody {
     width: 75%;
 }
@@ -101,9 +115,9 @@ p {
     display: list-item;
     list-style-type: circle;
     margin: auto;
-  padding: auto;
-  overflow: hidden;
-  border-radius: 10px;
+    padding: auto;
+    overflow: hidden;
+    border-radius: 10px;
 }
 i {
     color: red;
