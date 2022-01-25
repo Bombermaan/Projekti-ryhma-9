@@ -1,39 +1,39 @@
 /*Media queries*/
-@media only screen and (min-width:600px) {
-    .body {
-        width: 100%;
-    }
-    body {
-        font-size: 2em;
-    }
+@media only screen and (min-width: 600px) {
+  .body {
+    width: 100%;
+  }
+  body {
+    font-size: 2em;
+  }
 }
 
-@media only screen and (min-width:1200px) {
-    .body {
-        width: 75%;
-    }
-    body {
-        font-size: 2em;
-    }
+@media only screen and (min-width: 1200px) {
+  .body {
+    width: 75%;
+  }
+  body {
+    font-size: 2em;
+  }
 }
 
-@media only screen and (min-width:1800px) {
-    .body {
-        width: 75%;
-    }
-    body {
-        font-size: 1.5em;
-    }
+@media only screen and (min-width: 1800px) {
+  .body {
+    width: 75%;
+  }
+  body {
+    font-size: 1.5em;
+  }
 }
 
 /* Website appearance CSS*/
 
 body {
-    background: url("src/img/city.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url("src/img/city.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .navbar {
@@ -56,8 +56,8 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-li::marker{
-    content: initial;
+li::marker {
+  content: initial;
 }
 
 li a:hover {
@@ -65,68 +65,69 @@ li a:hover {
 }
 
 .active {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .body {
-    text-align: left;
-    font-size: 1.1em;
-    margin: auto;
-    background-color: rgb(0, 0, 0, 0.7);
-    height: auto;
-    border-radius: 25px;
-    
+  text-align: left;
+  font-size: 1.1em;
+  margin: auto;
+  background-color: rgb(0, 0, 0, 0.7);
+  height: auto;
+  border-radius: 25px;
 }
 
 .image {
-    text-align: left;
-    font-size: 1.1em;
-    margin: auto;
-    height: auto;
-    width: 75%;
+  text-align: left;
+  font-size: 1.1em;
+  margin: auto;
+  height: auto;
+  width: 75%;
 }
 .imagecontainer {
-    width: 50%;
-    background-color: rgb(255, 255, 255, 1);
-    border-radius: 10px;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 1);
+  border-radius: 10px;
 }
-
 
 .textbody {
-    width: 75%;
+  width: 75%;
 }
 
-.body p, h1, h2, h3 {
-    color: white;
+.body p,
+h1,
+h2,
+h3 {
+  color: white;
 }
 
 p {
-   padding: auto;
-   margin-left: 0.8em;
+  padding: auto;
+  margin-left: 0.8em;
 }
 
 .list1 li {
-    color: white;
-
+  color: white;
 }
 .list1 {
-    
-    display: list-item;
-    list-style-type: circle;
-    margin: auto;
-    padding: auto;
-    overflow: hidden;
-    border-radius: 10px;
+  display: list-item;
+  list-style-type: circle;
+  margin: auto;
+  padding: auto;
+  overflow: hidden;
+  border-radius: 10px;
 }
 i {
-    color: red;
+  color: red;
 }
-h1, h2, h3 {
-    color: #cc6600;
-    text-indent: 1em;
-    border-bottom: 2px solid white;
+h1,
+h2,
+h3 {
+  color: #cc6600;
+  text-indent: 1em;
+  border-bottom: 2px solid white;
 }
 h1:after {
-    border: 2px solid white;
+  border: 2px solid white;
 }
