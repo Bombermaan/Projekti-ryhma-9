@@ -17,12 +17,12 @@
   }
 }
 
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 1200px) {
   .body {
     width: 75%;
   }
   body {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 }
 
@@ -92,7 +92,7 @@ li a:hover {
 }
 
 .textbody {
-  width: 75%;
+  width: 85%;
 }
 
 .body p,
