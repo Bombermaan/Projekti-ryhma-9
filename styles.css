@@ -110,7 +110,7 @@ p {
 }
 
 .list1 li {
-  color: black;
+  color: white;
 }
 .list1 {
   display: list-item;
@@ -130,4 +130,10 @@ h3 {
 }
 h1:after {
   border: 2px solid white;
+}
+i {
+  color: red;
+}
+.BHeadline:before {
+  content:"1.2.2022 » ";
 }
