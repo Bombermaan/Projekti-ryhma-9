@@ -174,7 +174,8 @@ a:active {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(40, 40, 40);
-  color: white;
+  color: rgb(41, 41, 41);
   text-align: center;
+  position: relative;
+  height: 2em;
 }
