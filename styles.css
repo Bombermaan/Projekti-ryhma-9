@@ -28,6 +28,26 @@
 
 /* Website appearance CSS*/
 
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 body {
   background: url("src/img/city.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -44,6 +64,7 @@ body {
   overflow: hidden;
   background-color: #333;
   border-radius: 0px;
+  color: seashell;
 }
 
 li {
@@ -66,7 +87,7 @@ li a:hover {
 }
 
 .active {
-  background-color: #0099CC;
+  background-color: #0099cc;
   color: black;
 }
 
@@ -94,6 +115,7 @@ li a:hover {
 
 .textbody {
   width: 75%;
+  min-height: 100%;
 }
 
 .body p,
@@ -110,9 +132,10 @@ p {
 }
 
 .list1 li {
-  color: white;
+  color: rgb(48, 48, 48);
 }
 .list1 {
+  font-family: "Raleway", sans-serif;
   display: list-item;
   list-style-type: circle;
   margin: auto;
@@ -132,8 +155,26 @@ h1:after {
   border: 2px solid white;
 }
 i {
-  color: red;
+  color: rgb(57, 90, 116);
 }
 .BHeadline:before {
-  content:"1.2.2022 » ";
+  content: "1.2.2022 » ";
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+.footer {
+  font-family: "Raleway", sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  text-align: center;
 }
