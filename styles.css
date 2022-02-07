@@ -1,28 +1,62 @@
 /*Media queries*/
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width:300px)  {
+  .body {
+    width: 100%;
+  }
+  body {
+    font-size: 1.1em;
+  }
+  .mobile-container {
+    display: none;
+  }
+  .desktop-container {
+    display: block;
+  }
+  
+}
+@media only screen and (max-width: 450px)  {
+  .body {
+    width: 100%;
+  }
+  body {
+    font-size: 1.1em;
+  }
+  .mobile-container {
+    display: block;
+  }
+  .desktop-container {
+    display: none;
+  }
+  
+}
+
+@media only screen and (max-width: 1200px) and (min-width:600px) {
+  .body {
+    width: 100%;
+  }
+  body {
+    font-size: 1.4em;
+  }
+  .mobile-container {
+    display: none;
+  }
+  .desktop-container {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1800px) and (min-width:1200px) {
   .body {
     width: 100%;
   }
   body {
     font-size: 2em;
   }
-}
-
-@media only screen and (min-width: 1200px) {
-  .body {
-    width: 75%;
+  .mobile-container {
+    display: none;
   }
-  body {
-    font-size: 2em;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .body {
-    width: 75%;
-  }
-  body {
-    font-size: 2em;
+  .desktop-container {
+    display: block;
   }
 }
 
@@ -43,6 +77,17 @@ body {
   overflow: hidden;
   background-color: #333;
   border-radius: 10px;
+}
+
+.navbar #myLinks {
+  display: none;
+}
+.navbar a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 li {
@@ -139,4 +184,41 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
+  position: relative;
+  height: 2em;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active2 {
+  background-color: ;
 }
