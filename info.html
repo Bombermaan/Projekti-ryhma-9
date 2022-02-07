@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/src/img/favicon.ico">
+    <!Load icon library!>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -19,16 +21,38 @@
 <script>SmoothScroll({ keyboardSupport: true })</script>
 <div class="image">
     <div class="imagecontainer">
-    <img src="src/img/logo.svg" width="100%" alt="Company Logo">
+    <a href="index.html"><img src="src/img/logo.svg" width="100%" alt="Company Logo"></a>
 </div>
 </div>
     <div class="body">
-        <ul class="navbar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a class="active" href="info.html">Info</a></li>
-        </ul>
+        <div class="mobile-container">
+
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="index.html">Home</a>
+                
+              
+              <div id="myLinks">
+                <a href="news.html">News</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="info.html" class="active">Info</a>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+        
+        
+            </div>
+        <div class="desktop-container">
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="info.html" class="active">Info</a></li>
+                </ul>
+            </div>
+    
         <div class="textbody">
         <h1>Info</h1>
         <p>Are you searching for quality video marketing for the lowest prices on the market?</p>
@@ -68,5 +92,15 @@
     <div class="footer">
         <p><a href="index.html">Return to home</a> - © 2022 - BRÖNK VIDEO - ALL RIGHTS RESERVED</p> 
       </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 </html>
