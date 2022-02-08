@@ -13,7 +13,7 @@
     display: block;
   }
 }
-@media only screen and (max-width: 500px) and (min-width: 300px) {
+@media only screen and (max-width: 900px) and (min-width: 300px) {
   .body {
     width: 100%;
   }
@@ -27,26 +27,34 @@
     display: block;
   }
 }
-@media only screen and (max-width: 600px) and (min-width:501px){
+@media only screen and (max-width: 1000px) and (min-width: 901px) {
   .body {
     width: 100%;
   }
   body {
     font-size: 1.5em;
   }
-  .desktop-container {display: block;}
-  .mobile-container {display: none;}
+  .desktop-container {
+    display: block;
+  }
+  .mobile-container {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 600px) {
+@media only screen and (max-width: 1200px) and (min-width: 1001px) {
   .body {
     width: 100%;
   }
   body {
     font-size: 1.5em;
   }
-  .desktop-container {display: block;}
-  .mobile-container {display: none;}
+  .desktop-container {
+    display: block;
+  }
+  .mobile-container {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1800px) {
@@ -56,8 +64,12 @@
   body {
     font-size: 1.5em;
   }
-  .desktop-container {display: block;}
-  .mobile-container {display: none;}
+  .desktop-container {
+    display: block;
+  }
+  .mobile-container {
+    display: none;
+  }
 }
 
 /* Website appearance CSS*/
@@ -143,8 +155,6 @@ li a:hover {
 }
 .imagecontainer {
   width: 50%;
-
-  border-radius: 10px;
 }
 
 .textbody {
@@ -224,10 +234,12 @@ a:active {
 }
 
 .topnav a {
+  font-family: "Raleway", sans-serif;
+
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
   display: block;
 }
 .topnav a.icon {
