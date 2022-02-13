@@ -317,3 +317,8 @@ input[type="submit"]:hover {
   background-color: gray;
   padding: 20px;
 }
+
+.language-button {
+  color: rgb(172, 172, 172);
+  background-color: rgb(120, 120, 120);
+}
