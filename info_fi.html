@@ -21,7 +21,7 @@
 <script>SmoothScroll({ keyboardSupport: true })</script>
 <div class="image">
     <div class="imagecontainer">
-    <a href="index.html"><img src="src/img/logo.svg" width="100%" alt="Company Logo"></a>
+    <a href="index_fi.html"><img src="src/img/logo.svg" width="100%" alt="Company Logo"></a>
 </div>
 </div>
     <div class="body">
@@ -36,10 +36,11 @@
                 <a href="news_fi.html">Uutiset</a>
                 <a href="contact_fi.html">Yhteystiedot</a>
                 <a href="info_fi.html" class="active">Info</a>
-
+                <a href="info.html">English</a>
+                <a href="info_se.html">Svenska</a>
 
               </div>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <a href="javascript:void(0);" class="icon" onclick="Hamburger()">
                 <i class="fa fa-bars"></i>
               </a>
         </div>
@@ -53,8 +54,9 @@
                     <li><a href="contact_fi.html">Yhteystiedot</a></li>
                     <li><a href="info_fi.html" class="active">Info</a></li>
                     <div class="language-button">
-                      <li><a href="index.html">English</a></li>
-                      <li><a href="index_se.html">Svenska</a></li>
+                    <li><a href="info.html">English</a></li>
+                    <li><a href="info_se.html">Svenska</a></li>
+
     
     </div>
                 </ul>
@@ -80,7 +82,7 @@
         
         <h3>Our mission</h3>
         <p>Here at Brönk video we aim to raise the quality level of local businesses' marketing campaigns and to create a more cohesive connection between the company and the possible customers.</p>
-        <img src="src/img/documentary.png" alt="Documentary filming process">
+        <img src="src/img/documentary.png" width="100%" height="100%" alt="Documentary filming process">
 
         <h3>Resources</h3>
         <p>
@@ -101,7 +103,7 @@
         <p><a href="index_fi.html">Palaa etusivulle</a> - © 2022 - BRÖNK VIDEO - KAIKKI OIKEUDET PIDÄTETÄÄN</p> 
       </div>
       <script>
-        function myFunction() {
+        function Hamburger() {
           var x = document.getElementById("myLinks");
           if (x.style.display === "block") {
             x.style.display = "none";

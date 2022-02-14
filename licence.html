@@ -33,11 +33,13 @@
                 
               
               <div id="myLinks">
-                <a href="news.html">News</a>
+                <a href="news.html" class="active">News</a>
                 <a href="contact.html">Contact Us</a>
-                <a href="info.html" class="active">Info</a>
+                <a href="info.html">Info</a>
+                <a href="licence_fi.html">Suomi</a>
+                <a href="licence_se.html">Svenska</a>
               </div>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <a href="javascript:void(0);" class="icon" onclick="Hamburger()">
                 <i class="fa fa-bars"></i>
               </a>
         </div>
@@ -50,6 +52,8 @@
                     <li><a href="news.html">News</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                     <li><a href="info.html">Info</a></li>
+                    <li><a href="licence_fi.html">Suomi</a></li>
+                    <li><a href="licence_se.html">Svenska</a></li>
 
                 </ul>
             </div>
@@ -75,7 +79,7 @@
         <p><a href="index.html">Return to home</a> - © 2022 - BRÖNK VIDEO - ALL RIGHTS RESERVED</p> 
       </div>
       <script>
-        function myFunction() {
+        function Hamburger() {
           var x = document.getElementById("myLinks");
           if (x.style.display === "block") {
             x.style.display = "none";

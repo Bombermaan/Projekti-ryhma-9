@@ -22,7 +22,7 @@
     <script>SmoothScroll({ keyboardSupport: true })</script>
         <div class="image">
             <div class="imagecontainer">
-                <a href="index.html"><img src="src/img/logo.svg" width="100%" alt="Company Logo"></a>
+                <a href="index_fi.html"><img src="src/img/logo.svg" width="100%" alt="Company Logo"></a>
             </div>
     </div>
     <div class="body">
@@ -35,8 +35,10 @@
                 <a href="news_fi.html" class="active">Uutiset</a>
                 <a href="contact_fi.html">Yhteystiedot</a>
                 <a href="info_fi.html">Info</a>
+                <a href="news.html">English</a>
+                <a href="news_se.html">Svenska</a>
               </div>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <a href="javascript:void(0);" class="icon" onclick="Hamburger()">
                 <i class="fa fa-bars"></i>
               </a>
         </div>
@@ -50,8 +52,8 @@
                     <li><a href="contact_fi.html">Yhteystiedot</a></li>
                     <li><a href="info_fi.html">Info</a></li>
                     <div class="language-button">
-                      <li><a href="index.html">English</a></li>
-                      <li><a href="index_se.html">Svenska</a></li>
+                      <li><a href="news.html">English</a></li>
+                      <li><a href="news_se.html">Svenska</a></li>
     
     </div>
                 </ul>
@@ -79,7 +81,7 @@
         <p><a href="index_fi.html">Palaa etusivulle</a> - © 2022 - BRÖNK VIDEO - KAIKKI OIKEUDET PIDÄTETÄÄN</p> 
       </div>
       <script>
-        function myFunction() {
+        function Hamburger() {
           var x = document.getElementById("myLinks");
           if (x.style.display === "block") {
             x.style.display = "none";
