@@ -329,3 +329,6 @@ input[type=submit]:hover {
   background-color: gray;
   padding: 20px;
 }
+.language-button {
+  float: right;
+}
