@@ -1,0 +1,4 @@
+1.vaihda lokalisaatio en -> sv
+2.vaihda topnav ja desktop container diveistä index_fi -> index_se
+3.vaihda tekstit ruotsiksi
+4.siirrä html tiedostot roottiin ja poista tämä tiedosto
