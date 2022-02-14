@@ -4,7 +4,7 @@
     width: 100%;
   }
   body {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .desktop-container {
     display: none;
@@ -43,6 +43,20 @@
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 1001px) {
+  .body {
+    width: 100%;
+  }
+  body {
+    font-size: 1.5em;
+  }
+  .desktop-container {
+    display: block;
+  }
+  .mobile-container {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1800px) and (min-width: 1200px) {
   .body {
     width: 100%;
   }
@@ -287,12 +301,10 @@ input[type="submit"]:hover {
 video,
 img {
   margin-left: 0.8em;
-  width: 70%;
 }
 
 /*Forms appearance*/
-input[type="text"],
-textarea {
+input[type=text], textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -301,7 +313,7 @@ textarea {
   margin-top: 5px;
   margin-bottom: 15px;
 }
-input[type="submit"] {
+input[type=submit] {
   background-color: #0099cc;
   color: white;
   padding: 12px 20px;
@@ -309,16 +321,11 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
 }
-input[type="submit"]:hover {
+input[type=submit]:hover {
   background-color: #00698b;
 }
 .container {
   border-radius: 5px;
   background-color: gray;
   padding: 20px;
-}
-
-.language-button {
-  color: rgb(172, 172, 172);
-  background-color: rgb(120, 120, 120);
 }
