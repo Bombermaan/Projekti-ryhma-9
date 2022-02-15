@@ -331,4 +331,5 @@ input[type=submit]:hover {
 }
 .language-button {
   float: right;
+  font-weight:  600;
 }
