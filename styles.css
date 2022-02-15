@@ -4,7 +4,7 @@
     width: 100%;
   }
   body {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .desktop-container {
     display: none;
@@ -18,7 +18,7 @@
     width: 100%;
   }
   body {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .desktop-container {
     display: none;
@@ -32,7 +32,7 @@
     width: 100%;
   }
   body {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .desktop-container {
     display: block;
@@ -47,7 +47,7 @@
     width: 100%;
   }
   body {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .desktop-container {
     display: block;
@@ -61,7 +61,7 @@
     width: 100%;
   }
   body {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .desktop-container {
     display: block;
@@ -76,7 +76,7 @@
     width: 75%;
   }
   body {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .desktop-container {
     display: block;
